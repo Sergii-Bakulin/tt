@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-gray);
+    
+}
+:root {
+    /* -- - кажем шо буде змінна(переменна) */
+    /* yellow - наша назва переменной */
+    /* : значення */
+    --yellow: #FEC200;
+    --dark-gray: #3B4355;
+    --gray: #888888;
+  }
+  .header {
+    height: 130px;
+    color: var(--dark-gray);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 100px;
+    font-size: 16px;
+  }
+  .logo-opange{
+    color: var(--yellow);
+  }
+  .logo { 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .header-nav a{
+    margin: 0 50px;
+  }
+  .media{
+    display: flex;
+    align-items: center;
+  }
+  .media span{
+    margin-right: 50px;
+  }
+  .media span:not(:last-child){
+    margin-right: 50px;
+  }
+
+  .cart{
+    padding: 24px 41px 24px 77px;
+    max-width: 447px;
+  }
+  .cart-nema{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 38px;
+    font-family: 'Work Sans', sans-serif;
+
+  }
+  .card-price{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+  }
+  .cart-description{
+line-height: 22px;
+letter-spacing: 0.5px;
+color: var(--gray);
+  }
